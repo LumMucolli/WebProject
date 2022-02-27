@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    border: 4px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    border-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+}
+
+.form-control, select{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border-style:ridge;
+}
+
+.done, .dtwo, .dthree{
+    margin-top: 30px;
+}
+
+.btn{
+    background-color: rgb(61, 61, 207);
+    border: none;
+    width: 60px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.dfour{
+    text-align: center;
+    margin-top: 15px;
+}

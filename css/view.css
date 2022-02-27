@@ -1,0 +1,36 @@
+
+.a{
+    background-color: rgb(243 243 243);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin-left: 46%;
+    border-radius: 20px;
+    border-color:goldenrod;
+    border: solid rgb(155, 154, 154) 0.5mm;  
+    box-shadow: 0 0 5px;
+    border-radius: 1%;
+}
+
+input{
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: gray;
+    width: 200px;
+    height: 30px;
+}
+
+.submit{
+    margin-left: 70px;
+    height: 35px;
+    width: 120px;
+}
+
+h2{
+    margin-top: -40%;
+    margin-left: 53%;
+}
